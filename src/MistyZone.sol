@@ -49,7 +49,7 @@ contract MistyZone is ERC165, ZoneInterface{
         )
     {
         schemas = new Schema[](1);
-        schemas[0].id = 3003;
+        schemas[0].id = 666;
         schemas[0].metadata = new bytes(0);
 
         return ("MistyZone", schemas);
